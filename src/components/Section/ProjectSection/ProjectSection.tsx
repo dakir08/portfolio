@@ -88,7 +88,7 @@ const projects: {
     description: (
       <>
         An online video/audio editor tool with the combine of many quick tools
-        such as video cutter, video joiner, add subtitle. Written by{" "}
+        such as video cutter, video joiner, add subtitle using{" "}
         <HighLightText>React</HighLightText> and{" "}
         <HighLightText>Web Assembly</HighLightText>.
       </>

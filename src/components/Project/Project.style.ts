@@ -18,11 +18,12 @@ export const StyledProject = styled.div`
   @media screen and (max-width: ${breakpoints.tablet}) {
     width: 25rem;
     height: 14rem;
+    font-size: 0.9rem;
   }
 
   @media screen and (max-width: ${breakpoints.mobile}) {
     width: 16rem;
-    height: 10rem;
+    height: 11rem;
   }
 `;
 
@@ -85,6 +86,16 @@ export const StyleProjectDescriptionDisplay = css`
 
 export const StyledProjectDescriptionText = styled.span`
   margin-bottom: 1rem;
+
+  @media screen and (max-width: ${breakpoints.tablet}) {
+    font-size: 0.9rem;
+    margin-bottom: 0.8rem;
+  }
+
+  @media screen and (max-width: ${breakpoints.mobile}) {
+    font-size: 0.7rem;
+    margin-bottom: 0.3rem;
+  }
 `;
 
 export const StyledProjectButton = styled.button`
@@ -115,5 +126,15 @@ export const StyledProjectButton = styled.button`
 
   :focus {
     outline: none;
+  }
+
+  @media screen and (max-width: ${breakpoints.tablet}) {
+    padding: 0.3rem 0.8rem;
+    font-size: 0.9rem;
+  }
+
+  @media screen and (max-width: ${breakpoints.mobile}) {
+    padding: 0.125rem 0.8rem;
+    font-size: 0.7rem;
   }
 `;

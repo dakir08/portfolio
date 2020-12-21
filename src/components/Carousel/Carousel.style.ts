@@ -25,10 +25,6 @@ export const StyledCarousel = styled.div`
   @media screen and (max-width: ${breakpoints.tablet}) {
     height: 25vh;
   }
-
-  @media screen and (max-width: ${breakpoints.mobile}) {
-    height: 15vh;
-  }
 `;
 
 export const StyledCarouselImage = styled.img`
